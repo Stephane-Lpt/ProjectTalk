@@ -1,4 +1,4 @@
-package api.projecttalk.Entities;
+package api.projecttalk.server;
 
 import java.util.List;
 

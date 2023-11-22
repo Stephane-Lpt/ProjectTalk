@@ -1,9 +1,9 @@
-package api.projecttalk.Entities;
+package api.projecttalk.chat;
 
 import org.springframework.scheduling.support.SimpleTriggerContext;
 
 import java.util.List;
-
+import java.util.Map;
 /**
  * class that represent a chat message by a user
  */
@@ -17,9 +17,9 @@ public class Chat {
      */
     private String text;
     /**
-     * id of the author of the chat message
+     * Map that contains the id and the username of a user
      */
-    private String idAuthor;
+    private Map<String,String> user;
     /**
      * date of the chat message
      */
