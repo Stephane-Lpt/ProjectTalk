@@ -9,5 +9,4 @@ public class ProjectTalkApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProjectTalkApplication.class, args);
     }
-
 }

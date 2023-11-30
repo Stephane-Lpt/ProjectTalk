@@ -24,6 +24,7 @@ public class User {
     /**
      * email of the user
      */
+    @Indexed(unique = true)
     private String email;
     /**
      * password of the user
